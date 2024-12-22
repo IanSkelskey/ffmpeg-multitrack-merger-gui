@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+out/
+build/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Electron-specific files
+*.asar
+*.asar.unpacked
+.cache/
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# OS-specific files
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.*.swp
+.swp
+*~ 
+
+# FFmpeg binaries (if included)
+ffmpeg.exe
+ffprobe.exe
